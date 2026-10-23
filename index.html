@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Celso Dinaroski · Assessor de Investimentos</title>
+  <meta name="description" content="Celso Dinaroski, assessor de investimentos na SVN Investimentos, escritório credenciado à XP. Assessoria consultiva em Curitiba, PR." />
+  <meta name="theme-color" content="#07090d" />
+  <meta property="og:title" content="Celso Dinaroski · Assessor de Investimentos" />
+  <meta property="og:description" content="Planejamento, estratégia e relacionamento de longo prazo, em Curitiba." />
+  <meta property="og:image" content="/celso-src.png" />
+  <link rel="icon" href="/favicon.svg" />
+</head>
+<body>
+  <canvas id="gl" aria-hidden="true"></canvas>
+
+  <div class="loader" data-loader aria-hidden="true">
+    <span class="loader__n" data-loader-n>00</span>
+  </div>
+
+  <header class="hdr is-hidden" data-hdr>
+    <a class="hdr__brand" href="#topo" data-nav>Celso Dinaroski</a>
+    <nav class="hdr__nav">
+      <button class="hdr__menu" type="button" data-menu-btn aria-expanded="false" aria-controls="menu">
+        <span class="hdr__menu-label" data-menu-label>Menu</span>
+      </button>
+      <a class="pill" href="#contato" data-nav><span>Conversar</span></a>
+    </nav>
+  </header>
+
+  <div class="menu" id="menu" data-menu aria-hidden="true">
+    <ol class="menu__list">
+      <li><a href="#quem" data-nav><span class="menu__w">Quem sou</span></a></li>
+      <li><a href="#trajetoria" data-nav><span class="menu__w">Trajetória</span></a></li>
+      <li><a href="#ajuda" data-nav><span class="menu__w">Como posso te ajudar</span></a></li>
+      <li><a href="#como" data-nav><span class="menu__w">Como funciona</span></a></li>
+      <li><a href="#estrutura" data-nav><span class="menu__w">Certificações</span></a></li>
+      <li><a href="#contato" data-nav><span class="menu__w">Contato</span></a></li>
+    </ol>
+    <p class="menu__foot">Assessor de investimentos · Curitiba</p>
+  </div>
+
+  <main>
+    <!-- 1 · Abertura -->
+    <section class="hero" id="topo" data-hero>
+      <div class="hero__view" data-view="hero"></div>
+      <h1 class="sr">Celso Dinaroski, assessor de investimentos</h1>
+    </section>
+
+    <!-- 2 · Quem sou -->
+    <section class="about" id="quem">
+      <div class="about__photo" data-view="slit" role="img" aria-label="Foto de Celso Dinaroski"></div>
+      <div class="about__text">
+        <p class="eyebrow" data-split>Quem sou</p>
+        <h2 class="about__lead" data-split>Assessoria consultiva, feita de planejamento, estratégia e relacionamento de longo prazo.</h2>
+        <p class="about__body" data-fade>Uno conhecimento técnico e proximidade com o cliente para apoiar decisões de investimento alinhadas aos seus objetivos. Organizo o patrimônio, monto a estratégia e acompanho a carteira de perto, com transparência em cada passo.</p>
+        <dl class="facts" data-fade>
+          <div><dt>Formação</dt><dd>Gestão de Investimentos e Mercado Financeiro, XP Educação</dd></div>
+          <div><dt>Certificações</dt><dd>ANCORD, CPA e C-PRO R</dd></div>
+          <div><dt>Base</dt><dd>Curitiba, PR</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 3 · Trajetória -->
+    <section class="journey" id="trajetoria" data-journey>
+      <div class="journey__sticky">
+        <div class="journey__view" data-view="journey"></div>
+        <p class="eyebrow journey__eyebrow">Trajetória</p>
+        <div class="journey__labels">
+          <article class="mile" data-mile>
+            <h3 class="mile__title">Técnico na PUCPR</h3>
+            <p class="mile__place">Curitiba · 2020 a 2022</p>
+            <p class="mile__desc">Curso técnico integrado em Informática. A base de lógica e método que levo para as carteiras.</p>
+          </article>
+          <article class="mile" data-mile>
+            <h3 class="mile__title">Assessor de investimentos</h3>
+            <p class="mile__place">JFK Investimentos · 2023 a 2026</p>
+            <p class="mile__desc">Certificação ANCORD e o início na assessoria: prospecção, montagem de carteiras e acompanhamento recorrente.</p>
+          </article>
+          <article class="mile" data-mile>
+            <h3 class="mile__title">Melhor Assessor Select</h3>
+            <p class="mile__place">JFK Investimentos · 2025</p>
+            <p class="mile__desc">Reconhecido pelo desempenho do ano, com cerca de 150 clientes e R$ 15 milhões sob assessoria.</p>
+          </article>
+          <article class="mile" data-mile>
+            <h3 class="mile__title">SVN Investimentos</h3>
+            <p class="mile__place">Escritório credenciado à XP · desde 2026</p>
+            <p class="mile__desc">Atendimento consultivo com foco em planejamento financeiro e construção patrimonial.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · Como posso te ajudar -->
+    <section class="help" id="ajuda" data-help>
+      <div class="help__sticky">
+        <div class="help__top">
+          <p class="eyebrow">Como posso te ajudar</p>
+          <p class="help__count"><span data-help-n>01</span> / 04</p>
+        </div>
+        <div class="help__view" data-view="board"></div>
+        <ul class="sr">
+          <li data-service data-title="Investimentos" data-text="Estratégias de investimento montadas para o seu objetivo e o seu prazo, com a plataforma completa da XP.">Investimentos</li>
+          <li data-service data-title="Planejamento" data-text="Planejamento financeiro para organizar o presente e dar rumo ao que você quer construir.">Planejamento</li>
+          <li data-service data-title="Patrimônio" data-text="Organização patrimonial e construção de patrimônio no longo prazo, com a família no centro.">Patrimônio</li>
+          <li data-service data-title="Acompanhamento" data-text="Acompanhamento recorrente da carteira e alguém por perto para cada decisão.">Acompanhamento</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 5 · Como funciona -->
+    <section class="how" id="como" data-how>
+      <div class="how__sticky">
+        <p class="eyebrow how__eyebrow">Como funciona</p>
+        <div class="how__stack">
+          <article class="card" data-card>
+            <span class="card__n">01</span>
+            <div><h3 class="card__title">Primeira conversa</h3><p class="card__text">Um café ou uma chamada de meia hora. Você me conta o que quer construir, eu escuto e tiro as dúvidas.</p></div>
+          </article>
+          <article class="card" data-card>
+            <span class="card__n">02</span>
+            <div><h3 class="card__title">Diagnóstico</h3><p class="card__text">Olho onde o seu dinheiro está hoje, quanto ele custa em taxas e quanto risco você corre.</p></div>
+          </article>
+          <article class="card" data-card>
+            <span class="card__n">03</span>
+            <div><h3 class="card__title">Carteira</h3><p class="card__text">Proponho uma carteira com o motivo de cada escolha, por escrito. Você decide com calma.</p></div>
+          </article>
+          <article class="card" data-card>
+            <span class="card__n">04</span>
+            <div><h3 class="card__title">Acompanhamento</h3><p class="card__text">Revisões periódicas e alguém que atende o telefone quando o mercado balança.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6 · Certificações -->
+    <section class="press" id="estrutura" data-press-section>
+      <div class="press__view" data-view="press"></div>
+      <div class="press__inner">
+        <p class="eyebrow eyebrow--dark">Certificações</p>
+        <h2 class="press__lead">Certificado pela ANCORD e pela ANBIMA, e Melhor Assessor Select de 2025.</h2>
+        <div class="press__cols">
+          <div>
+            <h3 class="press__name gl-press" data-press>ANCORD</h3>
+            <p>A certificação que habilita o assessor de investimentos a atuar junto a um escritório credenciado.</p>
+          </div>
+          <div>
+            <h3 class="press__name gl-press" data-press>C-PRO R</h3>
+            <p>Certificação Profissional ANBIMA, ao lado da CPA, para atender e recomendar investimentos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7 · Contato -->
+    <section class="contact" id="contato">
+      <div class="contact__text">
+        <p class="eyebrow">Contato</p>
+        <h2 class="contact__title" data-split>Vamos conversar?</h2>
+        <p class="contact__sub" data-fade>A primeira conversa é sem compromisso. Me chama no WhatsApp e a gente marca um café em Curitiba ou uma chamada.</p>
+        <div class="contact__actions" data-fade>
+          <a class="pill pill--big" href="https://wa.me/5541999999999" target="_blank" rel="noopener"><span>Chamar no WhatsApp</span></a>
+          <a class="ulink" href="mailto:celso@svninvestimentos.com.br">E-mail</a>
+          <a class="ulink" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="contact__view" data-view="card" role="img" aria-label="Cartão de visitas de Celso Dinaroski"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <p class="foot__legal">Celso Dinaroski é assessor de investimentos vinculado à SVN Investimentos, escritório de assessoria de investimentos credenciado à XP Investimentos CCTVM S.A., na forma da Resolução CVM nº 178/2023. O reconhecimento citado refere-se a programa interno do escritório no ano indicado. Investimentos envolvem riscos, inclusive de perda do capital. Rentabilidade passada não é garantia de rentabilidade futura. As informações deste site têm caráter informativo e não constituem recomendação de investimento.</p>
+    <p class="foot__line"><span>© 2026 Celso Dinaroski</span><span>Curitiba, PR</span></p>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
